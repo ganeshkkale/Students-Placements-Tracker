@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Placement Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Student Placement Tracker</h1>
+
+    <form id="placementForm">
+      <input type="text" id="name" placeholder="Student Name" required>
+      <input type="text" id="company" placeholder="Company Name" required>
+      <input type="text" id="role" placeholder="Job Role" required>
+      <input type="number" id="package" placeholder="Package (LPA)" required>
+      <button type="submit">Add Record</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Company</th>
+          <th>Role</th>
+          <th>Package (LPA)</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <!-- Data will be added here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
